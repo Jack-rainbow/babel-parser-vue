@@ -1,0 +1,35 @@
+{
+  "name": "babel-parser-vue",
+  "version": "0.0.1",
+  "license": "MIT",
+  "description": "By default, vue is converted to ts",
+  "main": "./src/index.js",
+  "scripts": {
+  },
+  "bin": {
+    "babelTs": "./src/index.js"
+  },
+  "author": {
+    "name": "jack-rainbow",
+    "url": "https://github.com/Jack-rainbow"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jack-rainbow/babel-parser-vue.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Jack-rainbow/babel-parser-vue/issues"
+  },
+  "keywords": [
+    "transvue2ts",
+    "transform",
+    "vue",
+    "typescript"
+  ],
+  "private": false,
+  "dependencies": {
+    "@babel/generator": "^7.5.5",
+    "@babel/parser": "^7.5.5"
+  },
+  "devDependencies": {}
+}
